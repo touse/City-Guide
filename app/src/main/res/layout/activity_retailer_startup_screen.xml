@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDFD"
+    android:padding="30dp"
+    tools:context=".RetailerStartupScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/circle"
+            >
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/muli_light_italic"
+            android:text="@string/retailor_heading"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginTop="120dp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="36sp"></TextView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/retailor_tag_line"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/black"
+            ></TextView>
+
+
+<LinearLayout
+    android:layout_marginTop="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+       <Button
+           android:id="@+id/login_btn"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:text="login"
+           android:background="@color/colorPrimary"
+           android:layout_weight="1"
+           android:onClick="callLoginScreen"
+           android:textColor="#000"
+           android:layout_marginRight="10dp"
+           android:transitionName="transition_login"
+           ></Button>
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_marginLeft="10dp"
+        android:layout_width="0dp"
+        android:textColor="#000"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:transitionName="trasition_signup"
+        android:onClick="callsignUp"
+        android:layout_weight="1"
+        ></Button>
+
+</LinearLayout>
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:background="#00000000"
+            android:layout_height="wrap_content"
+            android:text="@string/how_we_work"
+
+            android:layout_weight="1"
+            ></Button>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

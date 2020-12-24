@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@android:color/white"
+    tools:context=".ForgorPassword">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back"
+            android:padding="5dp"
+            ></ImageView>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make selection"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="49sp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select which coontact details should we use to reset your password?"
+            android:textSize="18sp"
+            ></TextView>
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="50dp"
+         android:background="#F0EDED"
+         android:padding="10dp"
+         >
+<ImageView
+    android:id="@+id/mobile_icon"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:src="@drawable/ph"
+    android:layout_marginRight="20dp"
+    android:layout_centerVertical="true"
+    ></ImageView>
+
+         <TextView
+             android:id="@+id/mobile_title"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="via sms:"
+             android:textSize="25sp"
+android:layout_marginTop="35dp"
+             android:layout_toRightOf="@id/mobile_icon"
+             ></TextView>
+
+         <TextView
+             android:id="@+id/mobile_desc"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="+923204436508"
+             android:textSize="25sp"
+          android:layout_below="@id/mobile_title"
+             android:textColor="@android:color/black"
+             android:layout_toRightOf="@id/mobile_icon"
+             ></TextView>
+
+
+         <Button
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#00000000"
+             ></Button>
+
+     </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F0EDED"
+            android:padding="10dp"
+            >
+            <ImageView
+                android:id="@+id/email_icon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_email_black_24dp"
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true"
+                ></ImageView>
+
+            <TextView
+                android:id="@+id/emil_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="via mail:"
+                android:textSize="25sp"
+                android:layout_marginTop="35dp"
+                android:layout_toRightOf="@id/email_icon"
+                ></TextView>
+
+            <TextView
+                android:id="@+id/eamil_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="support@gmail.com"
+                android:textSize="25sp"
+                android:layout_below="@id/emil_title"
+                android:textColor="@android:color/black"
+                android:layout_toRightOf="@id/email_icon"
+                ></TextView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"
+                ></Button>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

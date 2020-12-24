@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+
+        <item
+            android:icon="@drawable/ic_home_black_24dp"
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:icon="@drawable/search_icon"
+            android:id="@+id/nav_search"
+            android:title="Search" />
+        <item
+            android:icon="@drawable/ic_category_check_black_24dp"
+            android:id="@+id/nav_all_categories"
+            android:title="All_Categories" />
+        <item
+            android:icon="@drawable/ic_missing_location_black_24dp"
+            android:id="@+id/nav_add_missing_place"
+            android:title="Add_Missing_Place" />
+
+
+
+
+
+
+
+
+
+
+
+    </group>
+
+
+    <item android:title="profile">
+<menu>
+
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:icon="@drawable/login"
+            android:id="@+id/nav_login"
+            android:title="Login" />
+        <item
+            android:icon="@drawable/profile"
+            android:id="@+id/nav_profile"
+            android:title="Profile" />
+        <item
+            android:icon="@drawable/logout"
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+
+
+
+    </group>
+
+
+</menu>
+
+
+    </item>
+
+    <item android:title="Categories">
+        <menu>
+
+
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:icon="@drawable/ic_restaurant_menu_black_24dp"
+                    android:id="@+id/nav_restaurants"
+                    android:title="@string/restaurants" />
+                <item
+                    android:icon="@drawable/ic_shop_black_24dp"
+                    android:id="@+id/nav_bank"
+                    android:title="@string/banks" />
+                <item
+                    android:icon="@drawable/hotel_icon"
+                    android:id="@+id/nav_education"
+                    android:title="Education" />
+                <item
+                    android:icon="@drawable/ic_shop_black_24dp"
+                    android:id="@+id/nav_shop"
+                    android:title="@string/shops" />
+
+            </group>
+
+
+        </menu>
+
+
+    </item>
+
+
+    <item android:title="Categories">
+        <menu>
+
+
+
+            <group android:checkableBehavior="none">
+
+                <item
+                    android:icon="@drawable/ic_share_black_24dp"
+                    android:id="@+id/nav_share"
+                    android:title="Share" />
+                <item
+                    android:icon="@drawable/ic_rate_review_black_24dp"
+                    android:id="@+id/nav_rate"
+                    android:title="Rate Us" />
+
+
+            </group>
+
+
+        </menu>
+
+
+    </item>
+
+
+</menu>

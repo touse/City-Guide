@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "421313979257",
+    "firebase_url": "https://cityguide-dafaa.firebaseio.com",
+    "project_id": "cityguide-dafaa",
+    "storage_bucket": "cityguide-dafaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421313979257:android:eb5506a4de873ff38e05a8",
+        "android_client_info": {
+          "package_name": "com.example.cityguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421313979257-i95t0qdcb730l82ng4khkdl62u4pobk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwKtVz4QjMz_hSjCF-_thrO3Y0vZA3yMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421313979257-i95t0qdcb730l82ng4khkdl62u4pobk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
